@@ -1,0 +1,29 @@
+.footer {
+  height: 180px;
+  background-color: rgb(161, 228, 224);
+}
+
+.contactsContainer {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  background-color: beige;
+}
+
+.icons {
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid;
+}
+
+.icon {
+  height: 50px;
+  width: 50px;
+  background-color: rgb(146, 146, 43);
+}
