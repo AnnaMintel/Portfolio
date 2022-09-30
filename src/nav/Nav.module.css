@@ -1,14 +1,17 @@
 .nav {
-    width: 300px;
-    display: flex;
-    justify-content: space-between;
- }
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper {
+  justify-content: flex-end;
+}
 
- @media (max-width: 480px) {
-    .nav {
-        width: 90%;
-    }
-    a {
-        font-size: 22px;
-    }
+@media (max-width: 480px) {
+  .nav {
+    width: 90%;
+  }
+  a {
+    font-size: 22px;
+  }
 }

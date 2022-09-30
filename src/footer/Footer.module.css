@@ -26,3 +26,9 @@
   width: 50px;
   background-color: rgb(146, 146, 43);
 }
+
+@media (max-width: 480px) {
+  .icons {
+    width: 230px;
+}
+}
