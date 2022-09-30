@@ -9,9 +9,9 @@ export const Skills = () => {
             <div className={` ${styleContainer.container} ${style.skillsContainer}`}>
                 <h2 className={style.title}>Skills</h2>
                 <div className={style.skills}>
-                    <Skill title={'js'} description={'1texttextte xttexttexttett ttttttt ttttttttttt ttttttttttttt ttttttttttt tttttttttt txttext'}/>
-                    <Skill title={'css'} description={'2texttex texttexttext textt ttttttttt tttttttttt ttttttttttt tttttttttttttttext'}/>
-                    <Skill title={'react'} description={'3textte exttexttextt exttttttttttt ttttttttt ttttttttttt tttttttttt ttttttttttttt ttttttttt ttttttttttttttttttttttttext'}/>
+                    <Skill title={'js'} description={'1texttextte xttextt exttett ttttttt ttttttt tttt  tttttttttt txttext'}/>
+                    <Skill title={'css'} description={'2texttex textte xttext textt ttttttttt tttttttttt ttttttttttt tttttttttttttttext'}/>
+                    <Skill title={'react'} description={'3textte extte xttextt exttttttttttt ttt tttttt ttttt tttt tttttttttttt tttttttttttt ext'}/>
                 </div>
             </div>
         </div>

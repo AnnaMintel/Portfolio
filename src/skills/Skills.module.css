@@ -14,9 +14,17 @@
 }
 
 .skills {
-  border: 1px solid;
   width: 100%;
   display: flex;
   justify-content: space-between;
   text-align: center;
+}
+
+@media (max-width: 480px) {
+  .skills {
+    margin-right: 0 auto;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
 }

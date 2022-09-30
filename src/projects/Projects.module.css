@@ -14,9 +14,17 @@
 }
 
 .projects {
-  border: 1px solid;
   width: 100%;
   display: flex;
   justify-content: space-between;
-  text-align:  center;
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  .projectsContainer {
+    justify-content: space-around;
+  }
+  .projects {
+    flex-direction: column;
+  }
 }

@@ -1,6 +1,14 @@
 .nav {
-    border: 1px solid red;
     width: 300px;
     display: flex;
     justify-content: space-between;
  }
+
+ @media (max-width: 480px) {
+    .nav {
+        width: 90%;
+    }
+    a {
+        font-size: 22px;
+    }
+}

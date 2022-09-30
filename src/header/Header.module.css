@@ -5,3 +5,12 @@
     justify-content: flex-end;
     align-items: center;
 }
+
+@media (max-width: 480px) {
+    .header {
+        justify-content: center;
+    }
+    .header nav {
+        width: 90%;
+    }
+}
