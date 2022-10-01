@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import { Contacts } from './contacts/Contacts';
 import { Footer } from './footer/Footer';
+import { Freelance } from './freelance/Freelance';
 import { Header } from './header/Header';
 import { Main } from './main/Main';
 import { Projects } from './projects/Projects';
@@ -14,6 +15,7 @@ const App = () => {
       <Main />
       <Skills />
       <Projects />
+      <Freelance />
       <Contacts />
       <Footer />
     </div>
