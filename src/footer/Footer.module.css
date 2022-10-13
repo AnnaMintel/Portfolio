@@ -27,7 +27,7 @@
   background-color: rgb(146, 146, 43);
 }
 
-@media (max-width: 480px) {
+@media screen and (max-width: 974px) {
   .icons {
     width: 230px;
 }

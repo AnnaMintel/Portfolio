@@ -1,5 +1,5 @@
 .freelanceBlock {
-  background-color: rgb(230, 235, 172);
+  background-color: #343a40;;
 }
 
 .freelanceContainer {
@@ -8,12 +8,7 @@
   justify-content: center;
 }
 
-.title {
-  background-color: beige;
-}
-
-
-@media (max-width: 480px) {
+@media screen and (max-width: 974px) {
   button {
     font-size: 24px;
 }
